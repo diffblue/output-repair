@@ -7,6 +7,7 @@ Author: Peter Schrammel
 \*******************************************************************/
 
 #include <iostream>
+#include <fstream>
 #include <cassert>
 
 #include "json_repair.h"
