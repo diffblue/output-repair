@@ -9,8 +9,8 @@ Author: Peter Schrammel
 #ifndef CPROVER_OUTPUT_REPAIR_XML_REPAIR_H
 #define CPROVER_OUTPUT_REPAIR_XML_REPAIR_H
 
-#include <fstream>
+#include <istream>
 
-void xml_repair(std::ifstream &infile, std::ofstream &outfile);
+void xml_repair(std::istream &infile, std::ostream &outfile);
 
 #endif // CPROVER_OUTPUT_REPAIR_XML_REPAIR_H

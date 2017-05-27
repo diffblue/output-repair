@@ -28,7 +28,7 @@ Function: xml_repair
 
 \*******************************************************************/
 
-void xml_repair(std::ifstream &infile, std::ofstream &outfile)
+void xml_repair(std::istream &infile, std::ostream &outfile)
 {
   std::stack<std::string> tags; // tag stack
   bool intag=false;             // within a tag

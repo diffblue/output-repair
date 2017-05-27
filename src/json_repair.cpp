@@ -28,7 +28,7 @@ Function: json_repair
 
 \*******************************************************************/
 
-void json_repair(std::ifstream &infile, std::ofstream &outfile)
+void json_repair(std::istream &infile, std::ostream &outfile)
 {
   std::stack<bool> elements;         // element stack (object=true)
   bool instring=false;               // within a string
